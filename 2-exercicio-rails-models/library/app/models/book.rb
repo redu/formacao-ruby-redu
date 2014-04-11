@@ -1,5 +1,6 @@
 class Book < ActiveRecord::Base
-  belongs_to :user
+  has_many :bookings
+  has_many :users, through: :bookings
   validates :name, presence: true
 
   scope :by_name, lambda { where(name: "1984") }
