@@ -10,4 +10,9 @@ Requisitos do mini-sistema:
 - Um usuário possui vários livros
 - O livro deve ter nome e pode ter edição
 - Os livros não existem sem os usuários
-- Deve ser possível consultar os 5 livros mais recentes de um usuário (será resolvido na próxima aula - aula 3)
+- Deve ser possível consultar os 5 livros mais recentes de um usuário
+
+Deve ser possível:
+
+- Visualizar um usuário
+- Listar usuários
