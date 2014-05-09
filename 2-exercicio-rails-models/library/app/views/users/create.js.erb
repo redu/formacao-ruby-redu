@@ -1,0 +1,5 @@
+var $newForm = "<%= escape_javascript render 'users/form', user: User.new %>";
+$("#user_form").replaceWith($newForm);
+
+var $createdUser = "<%= escape_javascript render @user %>";
+$(".users").append($createdUser);

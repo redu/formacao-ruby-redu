@@ -1,0 +1,9 @@
+<%= form_for user, remote: true, html: { id: "user_form" } do |f| %>
+  <%= f.label :first_name %>
+  <%= f.text_field :first_name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit %>
+<% end %>
+
+

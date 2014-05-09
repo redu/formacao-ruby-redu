@@ -1,0 +1,11 @@
+"pt-BR":
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            first_name:
+              blank: em branco
+            email:
+              invalid: inválido
+              blank: em branco

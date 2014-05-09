@@ -1,5 +1,8 @@
-<ul>
-  <% @users.each do |u| %>
-    <li><%= u.first_name %></li>
-  <% end %>
+<h1>Users</h1>
+
+<%= render 'users/form', user: @user %>
+
+<% byebug %>
+<ul class="users">
+  <%= render partial: 'users/user', collection: @users %>
 </ul>
