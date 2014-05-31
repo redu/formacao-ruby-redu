@@ -1,0 +1,6 @@
+var $newForm = "<%= escape_javascript render 'books/form', book: Book.new %>";
+$("#new_book").replaceWith($newForm);
+
+var $createdBook = "<%= escape_javascript render @book %>"
+$(".books").append($createdBook);
+
